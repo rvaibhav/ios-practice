@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08DBCE861CF443690056C84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBCE851CF443690056C84B /* AppDelegate.swift */; };
+		08DBCE881CF443690056C84B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBCE871CF443690056C84B /* ViewController.swift */; };
+		08DBCE8B1CF443690056C84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DBCE891CF443690056C84B /* Main.storyboard */; };
+		08DBCE8D1CF443690056C84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DBCE8C1CF443690056C84B /* Assets.xcassets */; };
+		08DBCE901CF443690056C84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DBCE8E1CF443690056C84B /* LaunchScreen.storyboard */; };
+		08DBCE981CF443FC0056C84B /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBCE971CF443FC0056C84B /* DatePickerViewController.swift */; };
+		08DBCE9A1CF444190056C84B /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBCE991CF444190056C84B /* SingleComponentPickerViewController.swift */; };
+		08DBCE9C1CF4442D0056C84B /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBCE9B1CF4442D0056C84B /* DoubleComponentPickerViewController.swift */; };
+		08DBCE9E1CF4443C0056C84B /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBCE9D1CF4443C0056C84B /* DependentComponentPickerViewController.swift */; };
+		08DBCEA01CF4444D0056C84B /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBCE9F1CF4444D0056C84B /* CustomPickerViewController.swift */; };
+		08DBCEA21CF48C7A0056C84B /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08DBCEA11CF48C7A0056C84B /* statedictionary.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08DBCE821CF443690056C84B /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DBCE851CF443690056C84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08DBCE871CF443690056C84B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08DBCE8A1CF443690056C84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08DBCE8C1CF443690056C84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08DBCE8F1CF443690056C84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08DBCE911CF443690056C84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DBCE971CF443FC0056C84B /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		08DBCE991CF444190056C84B /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		08DBCE9B1CF4442D0056C84B /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		08DBCE9D1CF4443C0056C84B /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		08DBCE9F1CF4444D0056C84B /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		08DBCEA11CF48C7A0056C84B /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = "../../../BeginningiOSwithSwift/07 - Picker Data/statedictionary.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08DBCE7F1CF443690056C84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08DBCE791CF443690056C84B = {
+			isa = PBXGroup;
+			children = (
+				08DBCE841CF443690056C84B /* Pickers */,
+				08DBCE831CF443690056C84B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08DBCE831CF443690056C84B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08DBCE821CF443690056C84B /* Pickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08DBCE841CF443690056C84B /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				08DBCEA11CF48C7A0056C84B /* statedictionary.plist */,
+				08DBCE851CF443690056C84B /* AppDelegate.swift */,
+				08DBCE871CF443690056C84B /* ViewController.swift */,
+				08DBCE891CF443690056C84B /* Main.storyboard */,
+				08DBCE8C1CF443690056C84B /* Assets.xcassets */,
+				08DBCE8E1CF443690056C84B /* LaunchScreen.storyboard */,
+				08DBCE911CF443690056C84B /* Info.plist */,
+				08DBCE971CF443FC0056C84B /* DatePickerViewController.swift */,
+				08DBCE991CF444190056C84B /* SingleComponentPickerViewController.swift */,
+				08DBCE9B1CF4442D0056C84B /* DoubleComponentPickerViewController.swift */,
+				08DBCE9D1CF4443C0056C84B /* DependentComponentPickerViewController.swift */,
+				08DBCE9F1CF4444D0056C84B /* CustomPickerViewController.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08DBCE811CF443690056C84B /* Pickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DBCE941CF443690056C84B /* Build configuration list for PBXNativeTarget "Pickers" */;
+			buildPhases = (
+				08DBCE7E1CF443690056C84B /* Sources */,
+				08DBCE7F1CF443690056C84B /* Frameworks */,
+				08DBCE801CF443690056C84B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickers;
+			productName = Pickers;
+			productReference = 08DBCE821CF443690056C84B /* Pickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08DBCE7A1CF443690056C84B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Talentica Software";
+				TargetAttributes = {
+					08DBCE811CF443690056C84B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 08DBCE7D1CF443690056C84B /* Build configuration list for PBXProject "Pickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08DBCE791CF443690056C84B;
+			productRefGroup = 08DBCE831CF443690056C84B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08DBCE811CF443690056C84B /* Pickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08DBCE801CF443690056C84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DBCE901CF443690056C84B /* LaunchScreen.storyboard in Resources */,
+				08DBCE8D1CF443690056C84B /* Assets.xcassets in Resources */,
+				08DBCEA21CF48C7A0056C84B /* statedictionary.plist in Resources */,
+				08DBCE8B1CF443690056C84B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08DBCE7E1CF443690056C84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DBCE881CF443690056C84B /* ViewController.swift in Sources */,
+				08DBCE861CF443690056C84B /* AppDelegate.swift in Sources */,
+				08DBCE9E1CF4443C0056C84B /* DependentComponentPickerViewController.swift in Sources */,
+				08DBCE9C1CF4442D0056C84B /* DoubleComponentPickerViewController.swift in Sources */,
+				08DBCEA01CF4444D0056C84B /* CustomPickerViewController.swift in Sources */,
+				08DBCE9A1CF444190056C84B /* SingleComponentPickerViewController.swift in Sources */,
+				08DBCE981CF443FC0056C84B /* DatePickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08DBCE891CF443690056C84B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DBCE8A1CF443690056C84B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08DBCE8E1CF443690056C84B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DBCE8F1CF443690056C84B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08DBCE921CF443690056C84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08DBCE931CF443690056C84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08DBCE951CF443690056C84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pickers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.vaibhavr.Pickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08DBCE961CF443690056C84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pickers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.vaibhavr.Pickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DBCE7D1CF443690056C84B /* Build configuration list for PBXProject "Pickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DBCE921CF443690056C84B /* Debug */,
+				08DBCE931CF443690056C84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08DBCE941CF443690056C84B /* Build configuration list for PBXNativeTarget "Pickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DBCE951CF443690056C84B /* Debug */,
+				08DBCE961CF443690056C84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08DBCE7A1CF443690056C84B /* Project object */;
+}
